@@ -1,0 +1,39 @@
+#bai2 h1 {
+    text-align: center;
+    color: green;
+}
+#bai2 h2 {
+    text-decoration: underline;
+}
+#bai2 p {
+    margin-top: 15px;
+}
+#bai2 .title {
+    text-align: center;
+    background-color: #fdbff5;
+    color: #ff77bc ;
+    font-size: 26px;
+    font-weight: bold;
+}
+#bai2 .baitho {
+    text-align: center;
+    background-color: #fbe6bf;
+}
+#bai2 .txt1{
+    color: blue;
+    font-style: italic;
+}
+#bai2 .txt2{
+    color: red;
+    font-style: italic;
+}
+#bai2 .txt3{
+    color: green;
+    font-style: italic;
+}
+
+hr { 
+    width: 250px; 
+    margin: 10px auto;
+    text-align: center;
+}

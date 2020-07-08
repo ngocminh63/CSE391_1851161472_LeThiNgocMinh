@@ -1,0 +1,18 @@
+.bai3{
+    background-color: #a06d21;
+}
+.bai3 h2{
+    text-align: center;
+    color: #ffcc00 ;
+}
+.bai3 p{
+    margin-top: 15px;
+}
+.bai3 .DV{
+    /* text-align: center; */
+    color: #ffffff;
+}
+.bai3 img{
+    background-image: none;
+    background-repeat: repeat;
+}

@@ -1,0 +1,16 @@
+#bai5 h1 {
+    text-align: center;
+    color: darkgreen;
+}
+#bai5 strong {
+    text-decoration: underline;
+}
+#bai5 span {
+    color: red;
+}
+pre {
+    background-color: #ccc;
+    color: blue;
+    font-size: 15px;
+    margin-top: 15px;
+}
