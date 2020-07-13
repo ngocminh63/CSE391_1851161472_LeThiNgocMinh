@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 1.12: Làm việc với Table</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="bai12">
+		<h1>Phiếu đăng kí tham gia chương trình khuyến mại</h1>
+		<table class="tb-bai12">
+			<tr>
+				<td>Họ và tên</td>
+				<td><input type="text" name="" value=""></td>
+			</tr>
+			<tr>
+				<td>Địa Chỉ</td>
+				<td><input type="text" name="" value=""></td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td><input type="number" name="" value=""></td>
+			</tr>
+			<tr>
+				<td>Phái</td>
+				<td>
+					<input type="radio" name="phai" checked=""> Nam
+					<input type="radio" name="phai"> Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Nghề Nghiệp</td>
+				<td>
+					<select>
+						<option>Giáo viên</option>
+						<option>Giảng Viên</option>
+						<option>Kĩ Sư</option>
+						<option>Khác</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn sản phẩm tham gia</td>
+				<td>
+					<input type="checkbox" name="sanpham" value="kemdanhrang">Kem đánh răng <br>
+					<input type="checkbox" name="sanpham" value="botgiat">Bột Giặt <br>
+					<input type="checkbox" name="sanpham" value="daugoidau">Dầu Gội Đầu <br>
+					<input type="checkbox" name="sanpham" value="suatam">Sữa Tắm <br>
+				</td>
+			</tr>
+			<tr>
+				<td>Số người dự đoán tham gia</td>
+				<td><input type="number" name="" value=""></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;"><input type="submit" name="submit" value="Đồng ý"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><p class="red">Bạn đã đăng ký thành công!!!</p></td>
+			</tr>
+		</table>
+	</div>
+	
+</body>
+</html>
