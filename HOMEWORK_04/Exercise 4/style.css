@@ -1,0 +1,78 @@
+#container{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4%;
+    display:block;
+    box-shadow: 8px 8px 5px 5px rgb(202, 199, 199);
+  }
+  
+#row1{
+     width:900px;
+     height:140px;
+  }
+.circles{
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #abcdef;
+    padding: 10px;
+    margin:10px;
+  }
+  
+#row2{
+     position:relative;
+     width:900px;
+     height: 140px;
+     margin-top:20px;
+  }
+.squares{
+     display: inline-flex;
+     height:120px;
+     width:120px;
+     background-color:steelblue;
+     margin-left: 16px;
+}
+#row3{
+     position:relative;
+     width:900px;
+     height: 140px;
+     margin-top:100px;
+  }
+  
+.rectangles{
+    display: inline-flex;
+    height:30px;
+    width:120px;
+    background-color:steelblue;
+    margin-left: 16px;
+}
+.active{
+    display:inline-flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #e614b8;
+    padding: 10px;
+    margin:10px;
+ }
+ 
+.squaresHalf{
+    display:inline-flex;
+    height:60px;
+    width:60px;
+    background-color:rgb(86, 228, 105);
+    margin-left: 70px;
+    margin-top:50px;
+ }
+ 
+.rectanglesMove{
+    background-color: rgb(226, 92, 92);
+    position: relative;
+    top: 10px;
+    display: inline-flex;
+    height:30px;
+    width:120px;
+    margin-left: 16px;
+  }
