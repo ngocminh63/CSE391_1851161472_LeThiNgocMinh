@@ -1,0 +1,22 @@
+.bai6 h2{
+    color: orange;
+    text-align: center;
+    border: double 5px orange;
+}
+.bai6 .content1 span{
+    font-size: 45px; 
+    color: darkred;
+}
+.bai6 .content2{
+    text-align: right;
+    color: white;
+    background-color: darkorange;
+    font-size: 30px;
+}
+.bai6 .content3{
+    text-align: right;
+}
+.bai6 .content3 span{
+    font-size: 45px;
+    color: darkred;
+}

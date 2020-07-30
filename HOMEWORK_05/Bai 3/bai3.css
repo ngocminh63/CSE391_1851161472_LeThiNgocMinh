@@ -1,0 +1,13 @@
+.nav-item{
+    display: flex;
+    width: 20px;
+}
+.nav-item-dropdown1{
+    left: 20px;
+}
+.nav-item-dropdown2{
+    left: 50px;
+}
+.nav-item-dropdown3{
+    left: 70px;
+}
