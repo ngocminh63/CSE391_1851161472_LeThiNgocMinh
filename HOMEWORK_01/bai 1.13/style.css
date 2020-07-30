@@ -1,0 +1,36 @@
+body {
+    overflow: scroll;
+    font-size: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, label, td {
+    color: rgb(13, 79, 110);
+}
+table {
+    background-color: rgb(233, 232, 160);
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+ table,tr, th, td{
+     border: 2px rgb(13, 79, 110) solid;
+    margin: 0px;
+    padding: 0px;
+    font: tahoma;
+    font-size: 20px;
+}
+
+
+td {
+    margin-right: 40px;
+}

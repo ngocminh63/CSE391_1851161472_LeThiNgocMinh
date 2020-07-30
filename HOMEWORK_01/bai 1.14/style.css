@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    border: 1px solid gray;
+}
+
+iframe {
+    border: none;
+    
+}
+
+.Thucdon , .ND {
+    border: 1px solid gray;
+
+}
+
+.Tieude {
+    width: 100%;
+}
+
+.Thucdon {
+}
+
+.ND {
+    float: right;
+}

@@ -1,0 +1,13 @@
+#bai1 h1 {
+    text-align: center;
+}
+#bai1 h2 {
+    text-decoration: underline;
+}
+#bai1 p {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.text-center {
+    text-align: center;
+}
