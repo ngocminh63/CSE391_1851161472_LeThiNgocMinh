@@ -83,3 +83,71 @@ div{
     display: block;
 }
 .dropdown:hover .dropdown-content {display: block;}
+
+
+.header-page{
+    padding: 20px 0 17px 0;
+}
+
+.quick-link{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+}
+
+.quick-link .iwt{
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+    margin-top: 25px;
+}
+
+.iwt{
+    text-align: center;
+}
+
+.iwt .iwt-icon {
+    display: block;
+    margin: 0 auto 21px auto;
+    text-align: center;
+}
+
+.iwt .iwt-icon img {
+    height: 25px;
+}
+
+h4{
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.list-department {
+    height: 375px;
+    max-height: 415px;
+    padding: 8px;
+    border: 1px solid #b2b2b2;
+    overflow: auto;
+}
+
+.department-institute ul li:not(:last-child) {
+    border-bottom: 1px dotted #b2b2b2;
+}
+.department ul li {
+    height: 33px;
+}
+.department h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000463;
+    font-size: 20px;
+    background-color: #e7e8f1;
+    margin-bottom: 2px;
+    font-weight: normal;
+    padding: 6px 10px;
+}
+.list-department a{
+    color: #001373;
+}
