@@ -9,46 +9,49 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="bai3.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
   <body>
     <div class="nav-item">
-        <div class="input-group mt-3 mb-3">
-            <div class="input-group-prepend">
-              <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown"></button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Blue</a>
-                <a class="dropdown-item" href="#">Gray</a>
-                <a class="dropdown-item" href="#">Pink</a>
-              </div>
-            </div>
-            <input type="text" class="form-control" placeholder="Username">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Color</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Blue</a>
+          <a class="dropdown-item" href="#">Dark</a>
         </div>
-        <div class="input-group mt-3 mb-3">
-            <div class="input-group-prepend">
-              <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">1</a>
-                <a class="dropdown-item" href="#">2</a>
-                <a class="dropdown-item" href="#">3</a>
-              </div>
-            </div>
-            <input type="text" class="form-control" placeholder="Username">
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Light</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Light</a>
+          <a class="dropdown-item" href="#">Dark</a>
         </div>
-        <div class="input-group mt-3 mb-3">
-            <div class="input-group-prepend">
-              <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
-              </div>
-            </div>
-            <input type="text" class="form-control" placeholder="Username">
-          </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Number</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">1</a>
+          <a class="dropdown-item" href="#">2</a>
+        </div>
+      </div>
+    </div>
+    <div class="Input">
+      <input type="text" class="form-control col-sm-9" placeholder="exercise">
+      <button type="button" class="btn btn-primary">Create</button>
+    </div>
+    <div class="Icon">
+      <p class="text-muted">Bench Press         <i class='fas fa-trash-alt'></i></p>
+      <br>
+      <p class="text-muted">Deadlift            <i class='fas fa-trash-alt'></i></p>
+      <br>
+      <p class="text-muted">Squats              <i class='fas fa-trash-alt'></i></p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

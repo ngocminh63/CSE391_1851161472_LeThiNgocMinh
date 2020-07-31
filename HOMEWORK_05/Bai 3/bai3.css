@@ -11,3 +11,9 @@
 .nav-item-dropdown3{
     left: 70px;
 }
+.Input{
+    display:inline-flex;
+}
+.btn btn-primary{
+    left: 70px;
+}
