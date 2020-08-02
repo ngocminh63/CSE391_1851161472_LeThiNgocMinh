@@ -151,3 +151,16 @@ h4{
 .list-department a{
     color: #001373;
 }
+.section-box {
+    padding: 15px 0;
+}
+.bg-light2{
+    background-color: #efefef;
+}
+.section-box .container .spacingTop{
+    display: flex;
+}
+.ng-scope{
+    display: flex;
+}
+
