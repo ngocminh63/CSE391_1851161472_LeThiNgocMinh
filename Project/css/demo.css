@@ -157,13 +157,9 @@ h4{
 .bg-light2{
     background-color: #efefef;
 }
-.section-box .container .spacingTop{
-    display: flex;
-}
 .ng-scope{
     display: flex;
 }
-
 .title {
     font-weight: 400;
     text-transform: uppercase;
