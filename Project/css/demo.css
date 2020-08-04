@@ -180,3 +180,50 @@ h4{
     position: relative;
     padding-left: 18px;
 }
+
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.tablink {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 17px;
+    width: 50%;
+}
+
+.footer-top {
+    background: #004eaf;
+    padding: 13px 0;
+}
+
+.footer-top a img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-middle {
+    background: #001373;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.footer-middle hr {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-middle .address {
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
