@@ -227,3 +227,12 @@ h4{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
 }
+
+.footer-top h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
