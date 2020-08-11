@@ -9,10 +9,29 @@
     <script src="JS/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e9d4d2468.js" crossorigin="anonymous"></script>
 </head>
+<style>
+        .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+    }
+    .col-md-3 img{
+    width:100%;
+    height:auto;
+    }
+    body .carousel-indicators li{
+    background-color:red;
+    }
+    body .carousel-control-prev-icon,
+    body .carousel-control-next-icon{
+    background-color:red;
+    }
+    body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+</style>
 <body style="border-top: 10px solid #2b3f8d;">
     <header class="header">
         <div class="container">
@@ -58,7 +77,23 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search">
             <button class="btn my-2 my-sm-0 position-absolute" style="right: 0%;bottom: 0.1%;" type="submit"><i class="fa fa-search"></i></button>
         </form>
-        
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                <li class="nav-item active my-auto">
+                    <a class="nav-link" href="#"><i class="fa fa-home"></i></span></a>
+                </li>
+                <li class="nav-item dropdown my-auto">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TIN TỨC & THÔNG BÁO</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">TIN VIDEO</a>
+                        <a class="dropdown-item" href="#">TIN TỨC</a>
+                        <a class="dropdown-item" href="#">THÔNG BÁO</a>
+                    </div>
+                </li>
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="#">TUYỂN SINH</a>
+                </li>
+        </div>
     </nav>
     <menu>
         <div class="inner">
@@ -157,10 +192,10 @@
                     <img src="Images/baner-tuyen.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="Images/banner-webthumb.jpg" class="d-block w-100" alt="...">
+                    <img src="..." class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="Images/nganh-thuy-loi-vietthumb.jpg" class="d-block w-100" alt="...">
+                    <img src="..." class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -176,38 +211,38 @@
 
     </menu>
     <div class="container">
-        <div class="quick-link">
-            <div class="iwt">
+        <div class="row mt-4">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/quality.jpg" alt=""></span>
                 </a>
                 <h4><a href="#">Đảm bảo<br>chất lượng</a></h4>
             </div>
-            <div class="iwt">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/www.jpg" alt=""></span>
                 </a>
                 <h4><a href="#">Tạp chí</a></h4>
             </div>
-            <div class="iwt">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/library.jpg" alt=""></span>
                 </a>
                 <h4><a href="#">Thư viện</a></h4>
             </div>
-            <div class="iwt">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/email.jpg" alt=""></span>
                 </a>
                 <h4><a href="#">TLU mail</a></h4>
             </div>
-            <div class="iwt">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/lichcongtac.jpg" alt=""></span>
                 </a>
                 <h4><a href="#">Lịch công tác</a></h4>
             </div>
-            <div class="iwt">
+            <div class="iwt col-md-2 col-4 mt-2">
                 <a href="#">
                     <span class="iwt-icon"><img src="Images/user.jpg" alt=""></span>
                 </a>
@@ -236,39 +271,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <!-- <div class="col-md-5">
                         <div class="nav-tabs" style="height: 43px;">
-                            <button class="tablink nav-link" id="News">Tin tức</button>
-                            <button class="tablink nav-link" id="Informs">Thông báo</button>
+                            <button class="tablink nav-link">Tin tức</button>
+                            <button class="tablink nav-link">Thông báo</button>
                         </div>
-                        <div class="col-12 thongbao1 active" style="display: none;">
+                        <div class="tabcontent" style="display: block;">
                             <div class="row">
                                 <ul class="unstyle-dot">
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/truong-dai-hoc-thuy-loi-tuyen-sinh-2020-11112" class="ng-blinding">Trường Đại học Thủy Lợi tuyển sinh 2020- Đón đầu xu thế</a><span><img src="Images/hot.gif" alt=""></span></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/phuong-thuc-xet-tuyen-dai-hoc-chinh-quy-11033" class="ng-blinding">Phương thức xét tuyển đại học chính quy năm 2020</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/cac-nganh-tuyen-sinh-dai-hoc-chinh-quy-11036" class="ng-blinding">Các ngành tuyển sinh đâị học năm 2020</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/bo-y-te-va-bo-tt-tt-de-nghi-nguoi-dan-13238" class="ng-blinding">Bộ Y tế và Bộ TT&TT đề nghị người dân cả nước cài đặt Bluezone</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/khai-giang-lop-boi-duong-nang-cao-trinh-13236" class="ng-blinding">Khai giảng lớp bồi dưỡng nâng cao trình độ Tiếng anh</a></li>
-                                </ul>
-                                <div class="text-right pt-3" style="width:100%">
-                                    <a ng-href="http://www.tlu.edu.vn/thong-bao" class="more">
-                                    <i class="fa fa-angle-double-right"></i>Xem tất cả
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 thongbao2" style="display: none;">
-                            <div class="row">
-                                <ul class="unstyle-dot">
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/thong-bao-cap-hoc-bong-cho-thi-sinh-11064" class="ng-blinding">Thông báo cấp Học bổng cho thí sinh trúng tuyển Đại học chính quy và nhập học vào Trường Đại học Thủy Lợi năm 2020</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/truong-dai-hoc-thuy-loi-thong-bao-tuyen-11062" class="ng-blinding">Trường Đại học Thủy Lợi thông báo Tuyển sinh hệ chính quy năm 2020</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/cuoc-thi-tim-kiem-y-tuong-kinh-doanh-13211" class="ng-blinding">Cuộc thi tìm kiếm ý tưởng kinh doanh mới do Hiệp hội Doanh nghiệp Đức(GBA) tổ chức</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/mot-so-thong-tin-sinh-hoat-lop-thang-7-13209" class="ng-blinding">Một số thông tin sinh hoạt lớp tháng 7 năm 2020</a></li>
-                                    <li><a href="http://www.tlu.edu.vn/tin-tuc/thong-bao-so-2-cuoc-thi-sinh-vien-voi-13207" class="ng-blinding">Thông báo số 2 Cuộc thi "Sinh viên với ý tưởng khởi nghiệp" năm 2020</a></li>
+                                    <li><a href="#" class="ng-blinding">Từ 0h00 ngày 30/5 đến 1/8/2020, Thí sinh bắt đầu
+                                            đăng ký trực tuyến xét tuyển thẳng và xét tuyển học bạ vào Trường Đại học
+                                            Thủy lợi</a><span><img src="Images/hot.gif" alt=""></span></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-3">
                     <div class="department">
@@ -369,15 +390,15 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div class="card-info-img" style="background-image: url(Images/thumbnail_Logo\ DHTL.jpg);">
-                                    <!--<img src="Images/thumbnail_Logo DHTL.jpg" alt="" style="height: 150px;">-->
+                                    <!-- <img src="Images/thumbnail_Logo DHTL.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="#">Thông báo triển khai kế hoạch tính toán khối lượng vượt giờ năm học 2019-2020</a></h4>
                                 </div>
                             </div>
                             <div class="col-sm">
-                                <div class="card-info-img" style="background-image: url(Images/NCKH-Avatar.jpg);" >
-                                    <!--<img src="Images/NCKH-Avatar.jpg" alt="" style="height: 150px;"> -->
+                                <div class="card-info-img" style="background-image: url(Images/NCKH-Avatar.jpg);">
+                                    <!-- <img src="Images/NCKH-Avatar.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="">Thông tin luận án tiến sĩ cấp Trường của NCS Nguyễn Quang Lương</a></h4>
@@ -385,7 +406,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="card-info-img" style="background-image: url(Images/Thong-Bao.jpg);">
-                                    <!--<img src="Images/Thong-Bao.jpg" alt="" style="height: 150px;">-->
+                                    <!-- <img src="Images/Thong-Bao.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="#">Thông tin thời gian bảo vệ luận án tiến sĩ cấp Trường của NCS Nguyễn Văn Hiếu </a></h4>
@@ -419,8 +440,8 @@
                     <div class="row row-space">
                         <div class="row">
                             <div class="col-sm">
-                                <div class="card-info-img" style="background-image: url(Images/200720Hosei1.jpg);" >
-                                    <!--<img src="Images/200720Hosei1.jpg" alt="" style="height: 150px;"> -->
+                                <div class="card-info-img" style="background-image: url(Images/200720Hosei1.jpg);">
+                                    <!-- <img src="Images/200720Hosei1.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="http://www.tlu.edu.vn/doi-ngoai/truong-dhtl-khai-thac-tiem-nang-hop-tac-13200" style="font-size: 15px; color: black;">Trường ĐHTL khai thác tiềm năng hợp tác với ĐH Hosei, Nhật Bản trong lĩnh vực Kỹ thuật Robot, Trí tuệ nhân tạo và Điện-điện tử</a></h4>
@@ -428,7 +449,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="card-info-img" style="background-image: url(Images/research.jpg);">
-                                    <!--<img src="Images/research.jpg" alt="" style="height: 150px;">-->
+                                    <!-- <img src="Images/research.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="http://www.tlu.edu.vn/doi-ngoai/chuong-trinh-du-an-quoc-te-de-tai-hop-13152" style="font-size: 15px; color: black;">Chương trình, Dự án quốc tế, Đề tài hợp tác nghiên cứu với đối tác nước ngoài</a></h4>
@@ -436,7 +457,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="card-info-img" style="background-image: url(Images/0k4a7767thumb.jpg);">
-                                    <!--<img src="Images/0k4a7767thumb.jpg" alt="" style="height: 150px;">-->
+                                    <!-- <img src="Images/0k4a7767thumb.jpg" alt="" style="height: 150px;"> -->
                                 </div>
                                 <div class="card-info-body">
                                     <h4 class="card-info-title"><a href="http://www.tlu.edu.vn/doi-ngoai/bi-thu-thu-hai-dai-su-quan-indonesia-13117" style="font-size: 15px; color: black;">Bí thư thứ hai Đại sứ quán Indonesia đến làm việc với Nhà trường </a></h4>
@@ -457,6 +478,7 @@
             </div>
         </div>
     </section>
+    
     <section class="section-box" style="padding-bottom: 0px;">   
         <div class="container">
             <div class="row">
@@ -473,7 +495,7 @@
             </div>
         </div>
     </section>
- 
+
     <section class="section-box">
         <div class="container">
             <div class="row">
@@ -529,6 +551,7 @@
             </div>
         </div>
     </section>
+    
     <section class="section-box" style="background-color:#efefef">
         <div class="container">
             <div class="heading" style="margin-bottom: 17px;">
@@ -591,9 +614,6 @@
     </section>
     <section>
         <div class="container my-5">
-            <div class="heading text-center">
-                <h3 class="title typescale-1">Đối tác tiêu biểu của trường</h3>
-            </div>
             <div id="demo" class="carousel slide" data-ride="carousel">
 
                 <!-- Indicators -->
@@ -607,39 +627,45 @@
                 <div class="container carousel-inner no-padding">
                   <div class="carousel-item active">
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                      <a href="#"><img src="Images/01tudelft.jpg"></a>
+                      <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>    
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                      <a href="#"><img src="Images/02brescia.jpg"></a>
+                      <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>   
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/03kyushu.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>   
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/04tohoku.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>   
                   </div>
                   <div class="carousel-item">
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/05jj.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>    
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/06colorado.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>   
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/07uark.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>   
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/08en.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>  
                   </div>
                   <div class="carousel-item">
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/09damwatch.jpg"></a>
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
                     </div>    
                     <div class="col-xs-3 col-sm-3 col-md-3">
-                        <a href="#"><img src="Images/10gns.jpg"></a>
-                    </div>    
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
+                    </div>   
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
+                    </div>   
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="#"><img src="https://image.shutterstock.com/z/stock-photo-sleeping-disorders-as-a-reason-for-insomnia-293777093.jpg"></a>
+                    </div>  
                   </div>
                 </div>
                 
@@ -653,7 +679,6 @@
               </div>
           </div>
     </section>
-
     
     <footer class="footer-page">
         <div class="footer-top" >
@@ -720,6 +745,8 @@
             </div>
         </div>
     </footer>
-    <script src="JS/JavaScript.js"></script>
+    <script>
+      
+    </script>
 </body>
 </html>
